@@ -1,0 +1,67 @@
+# Rust specific ignores
+/target/
+Cargo.lock
+# Remove this line if you want to include Cargo.lock for binary projects
+# (https://doc.rust-lang.org/cargo/guide/cargo-toml-vs-cargo-lock.html)
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Backup files
+*.bak
+*.orig
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Compiled output
+/dist/
+/tmp/
+/out/
+/build/
+
+# Dependency directories
+/node_modules/
+/jspm_packages/
+/bower_components/
+
+# Coverage directory used by tools like istanbul
+/coverage/
+
+# Documentation
+/docs/
